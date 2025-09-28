@@ -24,9 +24,9 @@ public class Address {
 
     private Long postalCode;
 
-    private Long longitude;
+    private Double longitude;
 
-    private Long latitude;
+    private Double latitude;
 
     @OneToOne
     @JoinColumn(name = "activity_id", nullable = false, unique = true)
