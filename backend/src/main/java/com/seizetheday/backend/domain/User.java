@@ -41,7 +41,6 @@ public class User {
     @Enumerated(EnumType.STRING)
     private Set<Role> roles;
 
-    @NotNull
     @Column(nullable = false)
     private Instant createdAt;
 
